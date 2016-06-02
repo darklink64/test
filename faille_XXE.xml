@@ -11,9 +11,6 @@
         <description>New XML tutorial on W3Schools</description>
       </item>
       <item>
-        <title>XML Tutorial</title>
-        <link>http://www.w3schools.com/xml</link>
-        <description>New XML tutorial on W3Schools</description>
         <foo>&xxe;</foo>
       </item>
     </channel>
