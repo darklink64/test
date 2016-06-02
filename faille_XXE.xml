@@ -3,3 +3,191 @@
    <!ELEMENT foo ANY >
    <!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
 
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Latest security vulnerabilities  (CSRF)</title>
+<link>http://www.cvedetails.com</link>
+<description>Security vulnerability feeds by http://www.cvedetails.com</description>
+<language>en-us</language>
+<item>
+<title>CVE-2016-4506</title>
+<description>Cross-site request forgery (CSRF) vulnerability on Resource Data Management (RDM) Intuitive 650 TDB Controller devices before 2.1.24 allows remote authenticated users to hijack the authentication of arbitrary users. (CVSS:0.0) (Last Update:2016-05-30)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-4506/</link>
+<pubDate>2016-05-30</pubDate>
+</item>
+<item>
+<title>CVE-2016-2285</title>
+<description>Cross-site request forgery (CSRF) vulnerability on Moxa MiiNePort_E1_4641 devices with firmware 1.1.10 Build 09120714, MiiNePort_E1_7080 devices with firmware 1.1.10 Build 09120714, MiiNePort_E2_1242 devices with firmware 1.1 Build 10080614, MiiNePort_E2_4561 devices with firmware 1.1 Build 10080614, and MiiNePort E3 devices with firmware 1.0 Build 11071409 allows remote attackers to hijack the authentication of arbitrary users. (CVSS:6.8) (Last Update:2016-05-31)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-2285/</link>
+<pubDate>2016-05-30</pubDate>
+</item>
+<item>
+<title>CVE-2016-2199</title>
+<description>Multiple cross-site request forgery (CSRF) vulnerabilities in the Organizations and Remediation management page in Enterprise Manager in McAfee Vulnerability Manager (MVM) before 7.5.10 allow remote attackers to hijack the authentication of administrators for requests that have unspecified impact via unknown vectors. (CVSS:6.8) (Last Update:2016-03-01)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-2199/</link>
+<pubDate>2016-02-01</pubDate>
+</item>
+<item>
+<title>CVE-2016-2157</title>
+<description>Cross-site request forgery (CSRF) vulnerability in mod/assign/adminmanageplugins.php in Moodle through 2.6.11, 2.7.x before 2.7.13, 2.8.x before 2.8.11, 2.9.x before 2.9.5, and 3.0.x before 3.0.3 allows remote attackers to hijack the authentication of administrators for requests that manage Assignment plugins. (CVSS:6.8) (Last Update:2016-05-24)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-2157/</link>
+<pubDate>2016-05-22</pubDate>
+</item>
+<item>
+<title>CVE-2016-2041</title>
+<description>libraries/common.inc.php in phpMyAdmin 4.0.x before 4.0.10.13, 4.4.x before 4.4.15.3, and 4.5.x before 4.5.4 does not use a constant-time algorithm for comparing CSRF tokens, which makes it easier for remote attackers to bypass intended access restrictions by measuring time differences. (CVSS:5.0) (Last Update:2016-02-24)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-2041/</link>
+<pubDate>2016-02-19</pubDate>
+</item>
+<item>
+<title>CVE-2016-2039</title>
+<description>libraries/session.inc.php in phpMyAdmin 4.0.x before 4.0.10.13, 4.4.x before 4.4.15.3, and 4.5.x before 4.5.4 does not properly generate CSRF token values, which allows remote attackers to bypass intended access restrictions by predicting a value. (CVSS:5.0) (Last Update:2016-02-24)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-2039/</link>
+<pubDate>2016-02-19</pubDate>
+</item>
+<item>
+<title>CVE-2016-1201</title>
+<description>Cross-site request forgery (CSRF) vulnerability in LOCKON EC-CUBE 3.0.0 through 3.0.9 allows remote attackers to hijack the authentication of administrators. (CVSS:6.8) (Last Update:2016-05-03)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1201/</link>
+<pubDate>2016-04-30</pubDate>
+</item>
+<item>
+<title>CVE-2016-1175</title>
+<description>Cross-site request forgery (CSRF) vulnerability in AQUOS Photo Player HN-PP150 1.02.00.04 through 1.03.01.04 allows remote attackers to hijack the authentication of arbitrary users. (CVSS:5.8) (Last Update:2016-04-06)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1175/</link>
+<pubDate>2016-04-05</pubDate>
+</item>
+<item>
+<title>CVE-2016-1174</title>
+<description>Cross-site request forgery (CSRF) vulnerability in the Menubook plugin before 0.9.3 for baserCMS allows remote attackers to hijack the authentication of administrators. (CVSS:6.8) (Last Update:2016-04-07)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1174/</link>
+<pubDate>2016-04-06</pubDate>
+</item>
+<item>
+<title>CVE-2016-1172</title>
+<description>Cross-site request forgery (CSRF) vulnerability in the Recruit plugin before 0.9.3 for baserCMS allows remote attackers to hijack the authentication of administrators. (CVSS:6.8) (Last Update:2016-04-07)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1172/</link>
+<pubDate>2016-04-06</pubDate>
+</item>
+<item>
+<title>CVE-2016-1170</title>
+<description>Cross-site request forgery (CSRF) vulnerability in the Casebook plugin before 0.9.4 for baserCMS allows remote attackers to hijack the authentication of administrators. (CVSS:6.8) (Last Update:2016-04-07)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1170/</link>
+<pubDate>2016-04-06</pubDate>
+</item>
+<item>
+<title>CVE-2016-1168</title>
+<description>Cross-site request forgery (CSRF) vulnerability on NEC Aterm WF800HP devices with firmware 1.0.17 and earlier allows remote attackers to hijack the authentication of arbitrary users. (CVSS:6.8) (Last Update:2016-04-01)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1168/</link>
+<pubDate>2016-04-01</pubDate>
+</item>
+<item>
+<title>CVE-2016-1167</title>
+<description>Cross-site request forgery (CSRF) vulnerability on NEC Aterm WG300HP devices allows remote attackers to hijack the authentication of arbitrary users. (CVSS:6.8) (Last Update:2016-04-01)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1167/</link>
+<pubDate>2016-04-01</pubDate>
+</item>
+<item>
+<title>CVE-2016-1158</title>
+<description>Cross-site request forgery (CSRF) vulnerability on Corega CG-WLBARGMH and CG-WLBARGNL devices allows remote attackers to hijack the authentication of administrators for requests that perform administrative functions. (CVSS:5.1) (Last Update:2016-03-10)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1158/</link>
+<pubDate>2016-03-03</pubDate>
+</item>
+<item>
+<title>CVE-2016-1151</title>
+<description>Multiple cross-site request forgery (CSRF) vulnerabilities in Cybozu Office 9.9.0 through 10.3.0 allow remote attackers to hijack the authentication of arbitrary users. (CVSS:6.8) (Last Update:2016-02-22)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1151/</link>
+<pubDate>2016-02-16</pubDate>
+</item>
+<item>
+<title>CVE-2016-1139</title>
+<description>Cross-site request forgery (CSRF) vulnerability on KDDI HOME SPOT CUBE devices before 2 allows remote attackers to hijack the authentication of unspecified victims via unknown vectors. (CVSS:6.8) (Last Update:2016-02-10)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1139/</link>
+<pubDate>2016-01-30</pubDate>
+</item>
+<item>
+<title>CVE-2016-1134</title>
+<description>Cross-site request forgery (CSRF) vulnerability on BUFFALO BHR-4GRV2 devices with firmware 1.04 and earlier, WEX-300 devices with firmware 1.90 and earlier, WHR-1166DHP devices with firmware 1.90 and earlier, WHR-300HP2 devices with firmware 1.90 and earlier, WHR-600D devices with firmware 1.90 and earlier, WMR-300 devices with firmware 1.90 and earlier, WMR-433 devices with firmware 1.01 and earlier, and WSR-1166DHP devices with firmware 1.01 and earlier allows remote attackers to hijack the authentication of arbitrary users. (CVSS:6.8) (Last Update:2016-03-14)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-1134/</link>
+<pubDate>2016-01-22</pubDate>
+</item>
+<item>
+<title>CVE-2016-0948</title>
+<description>Cross-site request forgery (CSRF) vulnerability in Adobe Connect before 9.5.2 allows remote attackers to hijack the authentication of unspecified victims via unknown vectors. (CVSS:6.8) (Last Update:2016-03-24)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-0948/</link>
+<pubDate>2016-02-10</pubDate>
+</item>
+<item>
+<title>CVE-2016-0891</title>
+<description>Multiple cross-site request forgery (CSRF) vulnerabilities in administrative pages in EMC ViPR SRM before 3.7 allow remote attackers to hijack the authentication of administrators. (CVSS:6.8) (Last Update:2016-04-26)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-0891/</link>
+<pubDate>2016-04-20</pubDate>
+</item>
+<item>
+<title>CVE-2016-0863</title>
+<description>Cross-site request forgery (CSRF) vulnerability in Tollgrade SmartGrid LightHouse Sensor Management System (SMS) Software EMS before 5.1, and 4.1.0 Build 16, allows remote attackers to hijack the authentication of arbitrary users. (CVSS:6.8) (Last Update:2016-05-09)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-0863/</link>
+<pubDate>2016-02-12</pubDate>
+</item>
+<item>
+<title>CVE-2016-0791</title>
+<description>CloudBees Jenkins before 1.650 and LTS before 1.642.2 do not use a constant-time algorithm to verify CSRF tokens, which makes it easier for remote attackers to bypass a CSRF protection mechanism via a brute-force approach. (CVSS:7.5) (Last Update:2016-04-11)</description>
+<link>http://www.cvedetails.com/cve/CVE-2016-0791/</link>
+<pubDate>2016-04-07</pubDate>
+</item>
+<item>
+<title>CVE-2015-8563</title>
+<description>Cross-site request forgery (CSRF) vulnerability in the com_templates component in Joomla! 3.2.0 through 3.3.x and 3.4.x before 3.4.6 allows remote attackers to hijack the authentication of unspecified victims via unknown vectors. (CVSS:6.8) (Last Update:2015-12-17)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-8563/</link>
+<pubDate>2015-12-16</pubDate>
+</item>
+<item>
+<title>CVE-2015-8487</title>
+<description>Cybozu Office 9.0.0 through 10.3 allows remote attackers to discover CSRF tokens via unspecified vectors, a different vulnerability than CVE-2015-8488. (CVSS:2.6) (Last Update:2016-02-22)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-8487/</link>
+<pubDate>2016-02-16</pubDate>
+</item>
+<item>
+<title>CVE-2015-8379</title>
+<description>CakePHP 2.x and 3.x before 3.1.5 might allow remote attackers to bypass the CSRF protection mechanism via the _method parameter. (CVSS:6.8) (Last Update:2016-01-27)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-8379/</link>
+<pubDate>2016-01-26</pubDate>
+</item>
+<item>
+<title>CVE-2015-8152</title>
+<description>Cross-site request forgery (CSRF) vulnerability in Symantec Endpoint Protection Manager (SEPM) 12.1 before RU6-MP4 allows remote authenticated users to hijack the authentication of administrators for requests that execute arbitrary code by adding lines to a logging script. (CVSS:8.5) (Last Update:2016-03-23)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-8152/</link>
+<pubDate>2016-03-18</pubDate>
+</item>
+<item>
+<title>CVE-2015-8131</title>
+<description>Cross-site request forgery (CSRF) vulnerability in Elasticsearch Kibana before 4.1.3 and 4.2.x before 4.2.1 allows remote attackers to hijack the authentication of unspecified victims via unknown vectors. (CVSS:6.8) (Last Update:2015-12-08)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-8131/</link>
+<pubDate>2015-12-07</pubDate>
+</item>
+<item>
+<title>CVE-2015-8125</title>
+<description>Symfony 2.3.x before 2.3.35, 2.6.x before 2.6.12, and 2.7.x before 2.7.7 might allow remote attackers to have unspecified impact via a timing attack involving the (1) Symfony/Component/Security/Http/RememberMe/PersistentTokenBasedRememberMeServices or (2) Symfony/Component/Security/Http/Firewall/DigestAuthenticationListener class in the Symfony Security Component, or (3) legacy CSRF implementation from the Symfony/Component/Form/Extension/Csrf/CsrfProvider/DefaultCsrfProvider class in the Symfony Form component. (CVSS:7.5) (Last Update:2015-12-08)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-8125/</link>
+<pubDate>2015-12-07</pubDate>
+</item>
+<item>
+<title>CVE-2015-7984</title>
+<description>Multiple cross-site request forgery (CSRF) vulnerabilities in Horde before 5.2.8, Horde Groupware before 5.2.11, and Horde Groupware Webmail Edition before 5.2.11 allow remote attackers to hijack the authentication of administrators for requests that execute arbitrary (1) commands via the cmd parameter to admin/cmdshell.php, (2) SQL queries via the sql parameter to admin/sqlshell.php, or (3) PHP code via the php parameter to admin/phpshell.php. (CVSS:6.8) (Last Update:2015-11-20)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-7984/</link>
+<pubDate>2015-11-19</pubDate>
+</item>
+<item>
+<title>CVE-2015-7936</title>
+<description>Cross-site request forgery (CSRF) vulnerability in Motorola Solutions MOSCAD IP Gateway allows remote attackers to hijack the authentication of administrators for requests that modify a password. (CVSS:6.8) (Last Update:2015-12-23)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-7936/</link>
+<pubDate>2015-12-22</pubDate>
+</item>
+<item>
+<title>CVE-2015-7925</title>
+<description>Cross-site request forgery (CSRF) vulnerability on eWON devices with firmware through 10.1s0 allows remote attackers to hijack the authentication of administrators for requests that trigger firmware upload, removal of configuration data, or a reboot. (CVSS:6.8) (Last Update:2015-12-23)</description>
+<link>http://www.cvedetails.com/cve/CVE-2015-7925/</link>
+<pubDate>2015-12-23</pubDate>
+</item>
+</channel></rss>
